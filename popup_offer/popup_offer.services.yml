@@ -1,0 +1,4 @@
+services:
+  poppup_offer.special_discount:
+    class: Drupal\popup_offer\SpecialProductsDiscount
+    arguments: ['@entity_type.manager', '@form_builder', '@entity.repository']
